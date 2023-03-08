@@ -13,33 +13,52 @@
 
 </head>
 <body>
-    <header class="hero">
+    <header>
         <nav>
-            <img class= "logo" src="assets/images/Logo.jpg" alt="dog with bone"/>
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
+                <li>Megan Mathis</li>
+                <li class="section"> <a href="#About-Meg">About Me</a></li>
+                <li class="section"> <a href="#Projects">Projects</a></li>
+                <li class="section"> <a href="#Contact-Me">Contact Me</a></li>
             </ul>
-        </nav>
-        <div class="hero-area">
-            <div class="hero-text">
-                <h1>Megan Mathis</h1>
-                <p>Portfolio</p>
-                <div class="button">About Me</div>
-            </div>
-            <div class="socials">
-                <div>LinkedIn</div>
-                <div>GitHub</div>
-            </div>
-        </div>
-        
+        </nav>  
     </header>
-    <section></section>
+    
+   <!-- About Me Section -->
+    <section class="subsection">
+        <h1 class="about-me" id="About-Meg">About Me</h1>
+            <img src="assets/images/Meg.jpeg" alt="head shot" class="center_pic">
+            <p class="description-of-me">My name is Megan Mathis and I am currently learning web development.  In my spare time I love playing with my daughter and my Great Pyrenees.</p>
+     </section>
 
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <!-- Projects Section -->
+     <section class="subsection">
+        <h1 id="Projects">Projects</h1>
+            <div class="prework">
+                <h3>PreWork Study Guide</h3>
+                <a href="https://megmathis.github.io/prework-study-guide/" target="_blank"><img src="assets/images/PreWork.jpg"></a>
+                <p class="description-of-project">This was a project done before the bootcamp started.  Click image to view page</p>
+            </div>
+            <div>
+                <h3>HTML Projects</h3>
+                <img src="assets/images/HTML_picture.jpg">
+                <p class="description-of-project">TBA</p>
+            </div>
+            <div>
+                <h3>CSS Projects</h3>
+                <img src="assets/images/CSS_picture.jpg">
+                <p class="description-of-project">TBA</p>
+            </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section class="subsection">
+        <h1 id="Contact-Me">Contact Me</h1>
+        <p class="contact-section"><a href="mailto:mcdonough.megan25@gmail.com" target="_blank">Email Me</a></p>
+        <p class="contact-section"><a href="https://github.com/MegMathis" target="_blank">GitHub</a></p>
+        <p class="contact-section"><a href="https://www.linkedin.com/in/megan-mcdonough-mathis-080a4834/"target="_blank">LinkedIn</a></p>
+    </section>
+    
+    <footer>&copy;2023</footer>
 </body>
 </html>
