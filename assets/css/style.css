@@ -7,8 +7,6 @@ body {
 
 nav {
     background-color: gray;
-    /* height: 80px; */
-    /* width: 100%; */
     margin: 0;
     overflow: hidden;
     border-radius: 5px;
@@ -16,7 +14,7 @@ nav {
 
 nav ul {
     display: flex;
-    margin: 0
+    margin: 0;
     padding: 0;
     
 }
@@ -56,10 +54,15 @@ h1 {
     /* text-align: center; */
     justify-content: left;
     font-size: 50px;
-    text-decoration: underline;
+    text-decoration-line: underline;
     margin: 15px 0 15px 25px;
 
 }
+
+img {
+    max-width: 100%;
+}
+
 
 .center_pic {
     display: block;
@@ -83,13 +86,23 @@ h1 {
 }
 
 
-img {
+.project-pics {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    height: 250px;
 
+
+}
+
+.prework-pic {
+    display: flex;
+    float: left;
+    border-radius: 50px;
+    border: solid white;
+    width: 600px;
+    height: 400px;
 }
 
 h3 {
@@ -102,6 +115,20 @@ h3 {
     color: aliceblue;
 }
 
+.description-of-project-prework {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    border: solid white;
+    border-radius: 75px;
+    background-color:plum;
+    color: black;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
 .description-of-project {
     display: flex;
     text-align: center;
@@ -111,12 +138,16 @@ h3 {
     border-radius: 75px;
     margin: 0 500px 0 500px;
     background-color:plum;
-    color: black
+    color: black;
+
+   
 }
+
 
 .contact-section {
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 25px;
-    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
 }
